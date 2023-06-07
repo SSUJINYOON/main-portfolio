@@ -1,0 +1,347 @@
+body {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Noto Sans KR', 'Gothic A1', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  display: block;
+}
+
+.inner {
+  width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tit_more {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: -.6px;
+  line-height: 1.4;
+  margin: 12px 0 24px;
+  min-height: 72px;
+}
+
+.txt_more {
+  display: block;
+  font-size: 1.3em;
+  font-weight: 500;
+  letter-spacing: -.5px;
+  line-height: 14px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.material-symbols-outlined {
+  height: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-left: 10px;
+}
+
+/* HEADER */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #c8c8c8;
+  width: 100%;
+  top: 0;
+  position: relative;
+}
+
+header .logo {
+  height: 75px;
+}
+
+header .logo a {
+  height: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin-left: 80px;
+}
+
+header .email {
+  position: absolute;
+  height: 30px;
+  right: 80px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+.main-img {
+  position: relative;
+  width: 100%;
+}
+
+.section-own {
+  position: relative;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.section-own .hello {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 3em;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-own p {
+  margin-bottom: 100px;
+  font-size: 1.3em;
+}
+
+.section-two {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 500px;
+}
+
+.section-two h3 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section-two ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+.section-two ul li {
+  background: #eee;
+  border-radius: 31px;
+  font-size: 1.8em;
+  font-weight: 600;
+  letter-spacing: -.6px; /* 글자 간격 */
+  line-height: 33px;
+  margin: 24px 12px 0 0;
+  padding: 14px 24px 16px;
+}
+
+.section-two .card_list .bundle_card a{
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 12px 40px 6px rgba(0,0,0,.09);
+  display: flex;
+  flex-direction: column;
+  margin: 48px 48px 0 0;
+  text-align: left;
+  transition: box-shadow .2s ease-in-out,-webkit-transform .2s ease-in-out;
+  width: 800px;
+  position: relative;
+}
+
+.section-two .card_list .bundle_card a img {
+  border-radius: 20px 20px 0 0;
+}
+
+.section-two .card_list .bundle_card a:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 12px 40px 6px rgba(0,0,0,.2);
+}
+
+.section-two .card_list .bundle_card {
+  border-radius: 20px 20px 0 0;
+  height: 224px;
+}
+
+.section-two .card_list .bundle_card .tit_card {
+  flex: 1 1;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: -.6px;
+  line-height: 38px;
+  margin: 24px;
+  overflow: hidden;
+}
+
+.section-two .card_list .bundle_card .txt_card {
+  font-size: 1em;
+  letter-spacing: -.2px;
+  line-height: 22px;
+  padding: 10px 24px 36px;
+}
+
+.section-two .list_more {
+  position: absolute;
+  right: 0;
+  top: 270px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 4px 12px 40px 6px rgba(0,0,0,.09);
+  box-sizing: border-box;
+  transition: box-shadow .2s ease-in-out,-webkit-transform .2s ease-in-out;
+  width: 700px;
+}
+
+.section-two .list_more:last-child {
+  position: absolute;
+  top: 580px;
+}
+
+.section-two .list_more:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 12px 40px 6px rgba(0,0,0,.2);
+}
+
+.section-two .list_more .link_more {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 14px;
+  margin-left: 20px;
+}
+
+.section-two .list_more .link_more .emoji {
+  display: block;
+  font-size: 3em;
+}
+
+.aside_banner {
+  margin: 0 auto 140px;
+}
+
+.aside_banner .link_notion {
+  width: 1296px;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 4px 12px 40px 6px rgba(0,0,0,.09);
+  color: #fff;
+  background-color: #27358B;
+  display: block;
+  padding: 48px 96px;
+}
+
+.aside_banner .link_notion .txt_more{
+   margin-top: 20px;
+}
+
+footer {
+  color: #999;
+  border-top: 1px solid #ccc;
+  padding: 50px 0 70px;
+}
+
+footer .phone {
+  float: right;
+}
+
+@media (max-width: 1500px) {
+  .inner {
+    width: 1200px;
+  }
+  .section-two .card_list .bundle_card a {
+    width: 600px;
+  }
+  .section-two .list_more {
+    width: 480px;
+    font-size: 1rem;
+    margin-right: 30px;
+  }
+  .section-two .list_more:last-child {
+    top: 520px;
+  }
+  .section-two .list_more .link_more {
+    padding: 0;
+  }
+  .section-two .list_more .link_more .emoji {
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  .aside_banner .link_notion {
+    width: 80%;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .inner {
+    width: 800px;
+  }
+  .section-two {
+    margin-bottom: 600px;
+  }
+  .section-two h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .section-two ul {
+    font-size: 1rem;
+  }
+  /*  */
+  .section-two .card_list {
+    /* border: 1px solid red; */
+    margin-left: 0;
+  }
+  .section-two .card_list .bundle_card a {
+    margin: 0 auto;
+    position: relative;
+  }
+  .section-two .list_more {
+    /* border: 1px solid blue; */
+    font-size: 12px;
+  }
+  .section-two .wrap .list_more {
+    position: absolute;
+    top: 700px;
+    left: 160px;
+  }
+  .bottom {
+    top: 800px !important;
+  }
+  .down {
+    top: 930px !important;
+  }
+  .section-two .wrap .list_more:last-child {
+    position: absolute;
+    top: 830px;
+    left: 160px;
+  }
+  .section-two .list_more .link_more{
+    display: block;
+  }
+  .aside_banner .link_notion {
+    width: 50%;
+    font-size: .8em;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .copy {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+  }
+  footer .phone {
+    float: none;
+  }
+}
+
